@@ -1,9 +1,17 @@
-.content {
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+/* Reset box model for consistency */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Apply consistent padding and spacing */
+body {
+  margin: 0;
+  padding: 1rem;           /* ⬅️ Ensure padding on mobile */
+  font-family: Georgia, serif;
+  background: #fdf6e3;
+  color: #111;
 }
 
 body {
@@ -100,4 +108,26 @@ a:hover {
 }
 .contact-icons a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+  }
+
+  .profile-text {
+    height: auto;
+    text-align: left;
+  }
+
+  .contact-icons {
+    justify-content: center;
+    margin-top: 1em;
+  }
+
+  .profile-pic {
+    margin-top: 1.5em;
+  }
 }
