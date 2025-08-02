@@ -24,24 +24,12 @@ layout: default
 ---
 
 ## Publications
-
-<div class="pub-entry">
-  <img src="assets/2025-jain-fu-CASH.png" class="pub-thumb">
-  <div class="pub-meta">
-    <h3>CASH: Capability-Aware Shared Hypernetworks for Flexible Heterogeneous Multi-Robot Coordination</h3>
-    <p><b>Shalin Jain<sup>*</sup></b>, Kevin Fu<sup>*</sup>, Pierce Howell, Harish Ravichandar</p>
-    <span class="badge" style="background:#8B0000">preprint</span>
-    <p class="pub-links">
-      📄 <a href="https://arxiv.org/abs/2501.06058">paper</a>
-    </p>
-  </div>
-</div>
-
 <div class="pub-entry">
   <img src="assets/2025-jain-jaxrobotarium.png" class="pub-thumb">
   <div class="pub-meta">
     <h3>JaxRobotarium: Training and Deploying Multi-Robot Policies in 10 Minutes</h3>
     <p><b>Shalin Jain</b>, Jiazhen Liu, Siva Kailas, Harish Ravichandar</p>
+    <span class="badge">CoRL 2025</span>
     <span class="badge">RSS 2025 MRS Workshop</span>
     <p class="pub-links">
       🌐 <a href="https://star-lab.cc.gatech.edu/papers/jain-jaxrobotarium/">project page</a>
@@ -53,6 +41,18 @@ layout: default
 </div>
 
 <div class="pub-entry">
+  <img src="assets/2025-jain-fu-CASH.png" class="pub-thumb">
+  <div class="pub-meta">
+    <h3>CASH: Capability-Aware Shared Hypernetworks for Flexible Heterogeneous Multi-Robot Coordination</h3>
+    <p><b>Shalin Jain<sup>*</sup></b>, Kevin Fu<sup>*</sup>, Pierce Howell, Harish Ravichandar</p>
+    <span class="badge">CoRL 2025</span>
+    <p class="pub-links">
+      📄 <a href="https://arxiv.org/abs/2501.06058">paper</a>
+    </p>
+  </div>
+</div>
+
+<!-- <div class="pub-entry">
   <img src="assets/2025-fu-CASH.png" class="pub-thumb">
   <div class="pub-meta">
     <h3>Learning Flexible Heterogeneous Coordination with Capability-Aware Shared Hypernetworks</h3>
@@ -64,7 +64,7 @@ layout: default
       💻  <a href="https://github.com/GT-STAR-Lab/CASH">code</a>
     </p>
   </div>
-</div>
+</div> -->
 
 <div class="pub-entry">
   <img src="assets/2025-kailas-XMAS.png" class="pub-thumb">
