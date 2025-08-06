@@ -12,7 +12,7 @@ layout: default
     <div class="contact-icons">
       💻 <a href="https://github.com/shalin-jain">GitHub</a>
       🔗 <a href="https://www.linkedin.com/in/shalin-jain/">LinkedIn</a>
-      📄 <a href="assets/CV_ShalinJ.pdf">CV</a>
+      <!-- 📄 <a href="assets/CV_ShalinJ.pdf">CV</a> -->
     </div>
   </div>
 
@@ -47,6 +47,7 @@ layout: default
     <p><b>Shalin Jain<sup>*</sup></b>, Kevin Fu<sup>*</sup>, Pierce Howell, Harish Ravichandar</p>
     <span class="badge">CoRL 2025</span>
     <p class="pub-links">
+      🌐 <a href="https://star-lab.cc.gatech.edu/papers/fu-jain-CASH-CoRL/">project page</a>
       📄 <a href="https://arxiv.org/abs/2501.06058">paper</a>
     </p>
   </div>
