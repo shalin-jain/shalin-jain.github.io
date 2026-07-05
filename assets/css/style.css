@@ -84,7 +84,7 @@ a:hover {
 
 .badge {
   display: inline-block;
-  background: #2ECC71; /* Changed to green */
+  background: #004018;
   color: #fdf6e3;
   padding: 3px 8px;
   border-radius: 6px;
@@ -95,7 +95,7 @@ a:hover {
 
 .pub-links a {
   margin-right: 10px;
-  color: #2ECC71; /* Changed to green */
+  color: #004018;
   text-decoration: none;
 }
 .pub-links a:hover {
@@ -132,7 +132,7 @@ a:hover {
 .contact-icons a {
   margin-right: 16px;
   text-decoration: none;
-  color: #2ECC71; /* Changed to green */
+  color: #004018;
 }
 .contact-icons a:hover {
   text-decoration: underline;
@@ -184,37 +184,41 @@ a:hover {
     font-weight: bold; /* Changed to bold */
     font-size: 0.9rem;
 
+    background: transparent;
+    border: 1px solid #004018;
+    color: #004018;
+
     transition: all 0.15s ease;
 }
 
 .contact-pill.github {
-    background-color: transparent; /* Transparent background */
-    border: 2px solid #2ECC71; /* Green outline */
-    color: #2ECC71; /* Green text */
+  background: transparent;
+  border: 1px solid #004018;
+  color: #004018;
 }
 
 .contact-pill.scholar {
-    background-color: transparent; /* Transparent background */
-    border: 2px solid #2ECC71; /* Green outline */
-    color: #2ECC71; /* Green text */
+  background: transparent;
+  border: 1px solid #004018;
+  color: #004018;
 }
 
 .contact-pill.linkedin {
-    background-color: transparent; /* Transparent background */
-    border: 2px solid #2ECC71; /* Green outline */
-    color: #2ECC71; /* Green text */
+  background: transparent;
+  border: 1px solid #004018;
+  color: #004018;
 }
 
 .contact-pill.cv {
-    background-color: transparent; /* Transparent background */
-    border: 2px solid #2ECC71; /* Green outline */
-    color: #2ECC71; /* Green text */
+  background: transparent;
+  border: 1px solid #004018;
+  color: #004018;
 }
 
 .contact-pill.email {
-    background-color: transparent; /* Transparent background */
-    border: 2px solid #2ECC71; /* Green outline */
-    color: #2ECC71; /* Green text */
+  background: transparent;
+  border: 1px solid #004018;
+  color: #004018;
 }
 
 .pub-links {
@@ -236,6 +240,10 @@ a:hover {
     font-size: 0.82rem;
     font-weight: bold; /* Changed to bold */
 
+  background: transparent;
+  border: 1px solid #004018;
+  color: #004018;
+
     transition: all 0.15s ease;
 }
 
@@ -254,9 +262,9 @@ a:hover {
 .pub-pill.doi,
 .pub-pill.arxiv,
 .pub-pill.demo {
-    background-color: transparent; /* Transparent background for all */
-    border: 1.5px solid #2ECC71; /* Green outline for all */
-    color: #2ECC71; /* Green text for all */
+  background: transparent;
+  border: 1px solid #004018;
+  color: #004018;
 }
 
 /* Keep hover effect consistent across all pill types */
