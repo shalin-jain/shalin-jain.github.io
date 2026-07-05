@@ -44,6 +44,10 @@ a:hover {
   /* box-shadow: 0 0 5px rgba(0,0,0,0.05); */
 }
 
+.pub-entry.first-author {
+    background: #fff9ef;
+}
+
 .pub-thumb {
   width: 200px;
   margin-right: 1em;
@@ -52,6 +56,30 @@ a:hover {
 
 .pub-meta h3 {
   margin-top: 0;
+}
+
+.pub-legend {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.legend-first-author {
+    display: inline-block;
+    padding: 0.25rem 0.8rem;
+    background: #fff9ef;      /* Same as your highlighted papers */
+    border: 1px solid #f0e2b6;
+    border-radius: 999px;
+    color: #8a6d1d;
+    font-weight: 600;
+}
+
+.legend-equal {
+    color: #666;
+    font-style: italic;
 }
 
 .badge {
@@ -130,4 +158,151 @@ a:hover {
   .profile-pic {
     margin-top: 1.5em;
   }
+}
+
+.section-subtitle {
+    margin-top: -1rem;      /* pull it closer to the heading */
+    margin-bottom: 0.2rem;    /* small gap before first paper */
+    font-size: 0.85rem;
+    color: #666;
+    font-style: italic;
+}
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    margin-top: 1rem;
+}
+
+.contact-pill {
+    display: inline-block;
+    padding: 0.45rem 1rem;
+
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+
+    transition: all 0.15s ease;
+}
+
+.contact-pill.github {
+    background: #f3f3f3;
+    border: 1px solid #d8d8d8;
+    color: #333;
+}
+
+.contact-pill.scholar {
+    background: #eef5ff;
+    border: 1px solid #c9dcff;
+    color: #2458a6;
+}
+
+.contact-pill.linkedin {
+    background: #eef6ff;
+    border: 1px solid #b8d6ff;
+    color: #0A66C2;
+}
+
+.contact-pill.cv {
+    background: #fef7e8;
+    border: 1px solid #f3d48d;
+    color: #8a6d1d;
+}
+
+.contact-pill.email {
+    background: #f7f7f7;
+    border: 1px solid #dddddd;
+    color: #555;
+}
+
+.contact-pill:hover {
+    transform: translateY(-1px);
+}
+
+.pub-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-top: 0.8rem;
+}
+
+.pub-pill {
+    display: inline-block;
+
+    padding: 0.25rem 0.7rem;
+
+    border-radius: 999px;
+
+    text-decoration: none;
+
+    font-size: 0.82rem;
+    font-weight: 500;
+
+    transition: all 0.15s ease;
+}
+
+.pub-pill:hover {
+    transform: translateY(-1px);
+}
+
+.pub-pill.project {
+    background: #eef8f0;
+    border: 1px solid #cde6d1;
+    color: #2f6b3c;
+}
+
+.pub-pill.workshop {
+    background: #fff7e8;
+    border: 1px solid #f2ddb2;
+    color: #8a6d1d;
+}
+
+.pub-pill.pdf {
+    background: #fff1f0;
+    border: 1px solid #f4c8c5;
+    color: #b23b32;
+}
+
+.pub-pill.code {
+    background: #f3f0ff;
+    border: 1px solid #d7cbff;
+    color: #5b43b5;
+}
+
+.pub-pill.video {
+    background: #fff3f3;
+    border: 1px solid #f4c9c9;
+    color: #b44747;
+}
+
+.pub-pill.poster {
+    background: #f5f5f5;
+    border: 1px solid #dddddd;
+    color: #555;
+}
+
+.pub-pill.slides {
+    background: #eef7ff;
+    border: 1px solid #cde3ff;
+    color: #3368b5;
+}
+
+.pub-pill.doi {
+    background: #f6f6f6;
+    border: 1px solid #dddddd;
+    color: #444;
+}
+
+.pub-pill.arxiv {
+    background: #ffecec;
+    border: 1px solid #f3baba;
+    color: #b31b1b;
+}
+
+.pub-pill.demo {
+    background: #eefcf8;
+    border: 1px solid #c8ece1;
+    color: #1f7a5c;
 }
