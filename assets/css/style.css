@@ -84,7 +84,7 @@ a:hover {
 
 .badge {
   display: inline-block;
-  background: #004018;
+  background: #2ECC71; /* Changed to green */
   color: #fdf6e3;
   padding: 3px 8px;
   border-radius: 6px;
@@ -95,7 +95,7 @@ a:hover {
 
 .pub-links a {
   margin-right: 10px;
-  color: #000000;
+  color: #2ECC71; /* Changed to green */
   text-decoration: none;
 }
 .pub-links a:hover {
@@ -132,7 +132,7 @@ a:hover {
 .contact-icons a {
   margin-right: 16px;
   text-decoration: none;
-  color: #007acc;
+  color: #2ECC71; /* Changed to green */
 }
 .contact-icons a:hover {
   text-decoration: underline;
@@ -181,44 +181,40 @@ a:hover {
 
     border-radius: 999px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: bold; /* Changed to bold */
     font-size: 0.9rem;
 
     transition: all 0.15s ease;
 }
 
 .contact-pill.github {
-    background: #f3f3f3;
-    border: 1px solid #d8d8d8;
-    color: #333;
+    background-color: transparent; /* Transparent background */
+    border: 2px solid #2ECC71; /* Green outline */
+    color: #2ECC71; /* Green text */
 }
 
 .contact-pill.scholar {
-    background: #eef5ff;
-    border: 1px solid #c9dcff;
-    color: #2458a6;
+    background-color: transparent; /* Transparent background */
+    border: 2px solid #2ECC71; /* Green outline */
+    color: #2ECC71; /* Green text */
 }
 
 .contact-pill.linkedin {
-    background: #eef6ff;
-    border: 1px solid #b8d6ff;
-    color: #0A66C2;
+    background-color: transparent; /* Transparent background */
+    border: 2px solid #2ECC71; /* Green outline */
+    color: #2ECC71; /* Green text */
 }
 
 .contact-pill.cv {
-    background: #fef7e8;
-    border: 1px solid #f3d48d;
-    color: #8a6d1d;
+    background-color: transparent; /* Transparent background */
+    border: 2px solid #2ECC71; /* Green outline */
+    color: #2ECC71; /* Green text */
 }
 
 .contact-pill.email {
-    background: #f7f7f7;
-    border: 1px solid #dddddd;
-    color: #555;
-}
-
-.contact-pill:hover {
-    transform: translateY(-1px);
+    background-color: transparent; /* Transparent background */
+    border: 2px solid #2ECC71; /* Green outline */
+    color: #2ECC71; /* Green text */
 }
 
 .pub-links {
@@ -238,7 +234,7 @@ a:hover {
     text-decoration: none;
 
     font-size: 0.82rem;
-    font-weight: 500;
+    font-weight: bold; /* Changed to bold */
 
     transition: all 0.15s ease;
 }
@@ -247,62 +243,23 @@ a:hover {
     transform: translateY(-1px);
 }
 
-.pub-pill.project {
-    background: #eef8f0;
-    border: 1px solid #cde6d1;
-    color: #2f6b3c;
-}
-
-.pub-pill.workshop {
-    background: #fff7e8;
-    border: 1px solid #f2ddb2;
-    color: #8a6d1d;
-}
-
-.pub-pill.pdf {
-    background: #fff1f0;
-    border: 1px solid #f4c8c5;
-    color: #b23b32;
-}
-
-.pub-pill.code {
-    background: #f3f0ff;
-    border: 1px solid #d7cbff;
-    color: #5b43b5;
-}
-
-.pub-pill.video {
-    background: #fff3f3;
-    border: 1px solid #f4c9c9;
-    color: #b44747;
-}
-
-.pub-pill.poster {
-    background: #f5f5f5;
-    border: 1px solid #dddddd;
-    color: #555;
-}
-
-.pub-pill.slides {
-    background: #eef7ff;
-    border: 1px solid #cde3ff;
-    color: #3368b5;
-}
-
-.pub-pill.doi {
-    background: #f6f6f6;
-    border: 1px solid #dddddd;
-    color: #444;
-}
-
-.pub-pill.arxiv {
-    background: #ffecec;
-    border: 1px solid #f3baba;
-    color: #b31b1b;
-}
-
+/* All pub pill variants now use green theme */
+.pub-pill.project,
+.pub-pill.workshop,
+.pub-pill.pdf,
+.pub-pill.code,
+.pub-pill.video,
+.pub-pill.poster,
+.pub-pill.slides,
+.pub-pill.doi,
+.pub-pill.arxiv,
 .pub-pill.demo {
-    background: #eefcf8;
-    border: 1px solid #c8ece1;
-    color: #1f7a5c;
+    background-color: transparent; /* Transparent background for all */
+    border: 1.5px solid #2ECC71; /* Green outline for all */
+    color: #2ECC71; /* Green text for all */
+}
+
+/* Keep hover effect consistent across all pill types */
+.pub-pill:hover {
+    transform: translateY(-1px);
 }
