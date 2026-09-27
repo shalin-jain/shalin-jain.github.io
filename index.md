@@ -33,7 +33,7 @@ layout: default
   <div class="pub-meta">
     <h3>Learning Dexterous Manipulation Using Contact Wrench Guidance From Human Demonstration</h3>
     <p>Xinghao Zhu<sup>*</sup>, Zixi Liu<sup>*</sup>, <b>Shalin Jain<sup>*</sup></b>, Chenran Li, Milad Noori, Huihua Zhao, John Welsh, Michael Andres Lin, Wei Liu, Tingwu Wang, Xingye Da, Zhengyi Luo, Vishal Kulkarni, Naema Bhatti, Yuke Zhu, Linxi Fan, Bowen Wen, Danfei Xu, Soha Pouya, Yan Chang</p>
-    <span class="badge">Under Review</span>
+    <span class="badge">CoRL 2026</span>
     <p class="pub-links">
       <a href="https://nvidia-isaac.github.io/video_to_data/chord/" class="pub-pill project">Project</a>
       <a href="https://arxiv.org/abs/2607.00033" class="pub-pill arxiv">arXiv</a>
